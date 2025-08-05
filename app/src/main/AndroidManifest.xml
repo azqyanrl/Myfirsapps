@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApps">
         <activity
+            android:name=".tambah_data"
+            android:exported="false" />
+        <activity
             android:name=".home"
             android:exported="false" />
         <activity
