@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/blue">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#C5BAFF"
+        android:layout_below="@+id/user"/>
+
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/user"
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user"
+        android:backgroundTint="#C5BAFF"
+        />
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#C5BAFF"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorLink="#C5BAFF"
+        android:textSize="24sp"
+        android:textColorHint="#A4A4A4"
+        android:layout_below="@+id/judul"/>
+
+    <EditText
+        android:id="@+id/txtpw"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#C5BAFF"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorLink="#C5BAFF"
+        android:textSize="24sp"
+        android:textColorHint="#A4A4A4"
+        android:layout_below="@+id/txtusername"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#C5BAFF"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+</RelativeLayout>
